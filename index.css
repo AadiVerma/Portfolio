@@ -358,3 +358,81 @@ color:#fff;
     align-items: center;
     text-align: center;
 }
+.grid-part1{
+    display: flex;
+    gap:3%;
+    padding: 3%;
+    /* flex-wrap: wrap; */
+}
+.grid-part1>div{
+    height:200px;
+    width:400px;
+    border: solid 2px;
+    border-color:#0ef;
+    border-radius: 10px;
+    transition:0.5s;
+}
+.grid-part1>div>a>img{
+    object-fit: cover;
+    height:195px;
+    width: 390px;
+    border-radius:10px;
+    transition:0.5s;
+}
+.grid-part1>div:hover{
+    height:fit-content;
+ }
+.grid-part1>div>a>img:hover{
+ height:500px;
+ object-fit: cover;
+ background-color: #0ef;
+}
+.grid-part2{
+    display: flex;
+    gap:3%;
+    padding: 3%;
+}
+.grid-part2>div{
+    height:200px;
+    width:400px;
+    border: solid 2px;
+    border-color:#0ef;
+    border-radius: 10px;
+}
+.projects{
+    margin-top:10%;
+}
+.order-line{
+    border-left:dotted 3px;
+    border-color: #0ef;
+}
+.Education-main-div{
+    width:100%;
+    display: block;
+    margin-top:5%;
+    padding-right:20%;
+    padding-left: 20%;
+    justify-content: center;
+    align-items:center;
+   
+}
+.Education-main-div>div>div{
+    margin:4%;
+    padding:2%;
+    border: solid 3px;
+    border-color: #0ef;
+    border-radius: 10px;
+    color:#fff;
+    font-size: large;
+    transition: 0.3s;
+}
+.Education-main-div>div>div:hover{
+    margin:4%;
+    padding:2%;
+    border: solid 3px;
+    border-color: #0ef;
+    border-radius: 10px;
+    color:#1f242d;
+    background-color: #0ef;
+    font-size: large;
+}
