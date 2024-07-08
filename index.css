@@ -57,7 +57,7 @@ body{
     height: 450px;
     border-radius: 50%;
     /* filter: drop-shadow(10px 10px 20px #0ef);  */
-    background-color: #1f242d;
+    background-color: black;
     transition:0.5s;
     animation-name: floating;
     animation-duration: 3s;
@@ -117,20 +117,20 @@ span{
     border:solid #1f242d;
 }
 .first-button:hover{
-    background-color: #1f242d;
+    background-color: black;
     color: #0ef;
     border:solid  #0ef;
     cursor:pointer;
 }
 .second-button{
-    background-color: #1f242d;
+    background-color: black;
     color: #0ef;
     border:solid  #0ef;
 }
 .second-button:hover{
     background-color: #0ef;
-    color:#1f242d;
-    border:solid #1f242d;
+    color:black;
+    border:solid black;
     cursor:pointer;
 }
  
@@ -159,7 +159,7 @@ span{
     padding:1%;
 }
 .icons a:hover{
-    color:#1f242d;
+    color:black;
     border: solid;
     background-color: #0ef;
 
@@ -168,7 +168,7 @@ span{
     border-radius: 50%;
     width:fit-content;
     /* filter: drop-shadow(5px 5px 10px #0ef);  */
-    background-color: #1f242d;
+    background-color: black;
     transition:0.5s;
     animation-name: floating;
     animation-duration: 3s;
@@ -226,7 +226,7 @@ color:#fff;
 }
 .border{
     width: 100%;
-    background-color: #1f242d;
+    background-color: black;
     border: #0ef solid;
     border-radius: 8px;
     height:20px;
@@ -340,7 +340,7 @@ color:#fff;
     height:300px;
     border: solid;
     border-color:#0ef;
-    background-color: #1f242d;
+    background-color: black;
     border-radius: 10px;
     width:83%;
     margin:2% 10%;
@@ -432,7 +432,7 @@ color:#fff;
     border: solid 3px;
     border-color: #0ef;
     border-radius: 10px;
-    color:#1f242d;
+    color:black;
     background-color: #0ef;
     font-size: large;
 }
